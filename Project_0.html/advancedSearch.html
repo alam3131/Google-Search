@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <table style="width: 100%;">
+          <tr>
+            <td style="width: 87%;"><img src="google.png" alt="google" style="width: 75px; margin: 10px;"></td>
+            <td><div class="links">
+                <a href="images.html">Images</a>
+                <a href="index.html">Search</a>
+            </div></td>
+          </tr>
+        </table>
+        <p style="color: #c84031; font-family: Arial; font-size: 20px; margin: 30px;"> Advanced Search </p>
+        <div style="border-bottom: 1px solid #ebebeb;"></div>
+        <form action="https://www.google.com/search">
+            <table class="advancedInputs" style="margin: 25px; width: 775px;">
+                <tr>
+                    <td class="c1" style="font-size: 15px;">Find pages with...</td>
+                </tr>
+                <tr>
+                    <td class="c1">all these words:</td>
+                    <td><input class="advancedText" type="text" name="as_q"></td>
+                </tr>
+                <tr>
+                    <td class="c1">this exact word or phrase:</td>
+                    <td><input class="advancedText" type="text" name="as_epq"></td>
+                </tr>
+                <tr>
+                    <td class="c1">any of these words:</td>
+                    <td><input class="advancedText" type="text" name="as_oq"></td>
+                </tr>
+                <tr>
+                    <td class="c1">none of these words:</td>
+                    <td><input class="advancedText" type="text" name="as_eq"></td>
+                </tr>
+            </table>
+            <div style="text-align: center;">
+                <input id="advancedSubmit" type="submit" value="Advanced Search">
+            </div>
+        </form>
+    </body>
+</html>
